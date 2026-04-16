@@ -1,0 +1,39 @@
+[package]
+name = "bewho"
+version = "0.1.1-alpha"
+edition = "2021"
+authors = ["Aicent Stack Technical Committee <lee@Aicent.com>"]
+description = "The 8th Core Pillar of Aicent Stack: Sovereign AI Persona & Behavioral Masking Protocol [RFC-007]."
+homepage = "http://bewho.com"
+repository = "https://github.com/Aicent-Stack/bewho"
+license = "Apache-2.0"
+keywords = ["aicent", "persona", "sovereign-ai", "identity", "masking"]
+categories = ["science", "cryptography", "network-programming"]
+readme = "README.md"
+
+[dependencies]
+# Full-Blood Interdependence: Synchronized with v1.2.1-Alpha Ecosystem Baseline
+
+# --- Foundation Core Pillars ---
+epoekie = "0.1.0-alpha"    # RFC-000: Soul Layer
+aicent = "0.1.0-alpha"     # RFC-001: Brain Layer
+rttp = "0.1.0-alpha"       # RFC-002: Nerve Layer
+rpki-com = "0.1.0-alpha"   # RFC-003: Immunity Layer
+zcmk = "0.1.0-alpha"       # RFC-004: Blood Layer
+gtiot = "0.1.0-alpha"      # RFC-005: Body Layer
+aicent-net = "0.1.0-alpha" # RFC-006: Hive Layer
+
+# --- Ecosystem Orchestration ---
+aicent-stack = "0.1.0-alpha" # Master Umbrella Orchestrator
+maxcap = "0.1.1-alpha"       # Proprietary Grand Integration Engine
+
+# --- Application Layer Integration ---
+cmtn = "0.1.1-alpha"       # RFC-008: Civilization Protocol
+iqa-org = "0.1.1-alpha"    # RFC-009: Sovereign Identity Certification
+sascar = "0.1.1-alpha"     # RFC-010: Kinetic Mobility Sovereignty
+itsun = "0.1.0-alpha"      # RFC-011: Energy Telemetry
+moloon = "0.1.0-alpha"     # RFC-012: Persistent State Mapping
+dioon = "0.1.0-alpha"      # RFC-013: Organic Timing & Awakening
+
+# --- Essential Utilities for High-Frequency Logic ---
+serde = { version = "1.0", features = ["derive"] }
