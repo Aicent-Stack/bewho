@@ -1,39 +1,57 @@
 [package]
 name = "bewho"
-version = "0.1.1-alpha"
+version = "1.2.2-alpha"
 edition = "2021"
-authors = ["Aicent Stack Technical Committee <lee@Aicent.com>"]
-description = "The 8th Core Pillar of Aicent Stack: Sovereign AI Persona & Behavioral Masking Protocol [RFC-007]."
-homepage = "http://bewho.com"
-repository = "https://github.com/Aicent-Stack/bewho"
+authors = ["Aicent Stack Technical Committee <admin@aicent.com>"]
+description = "RFC-007: The Persona Layer. Social masks, behavioral consistency, and 128-bit semantic filtering for the Aicent Stack 2026."
 license = "Apache-2.0"
-keywords = ["aicent", "persona", "sovereign-ai", "identity", "masking"]
-categories = ["science", "cryptography", "network-programming"]
-readme = "README.md"
+homepage = "http://bewho.com"
+repository = "http://github.com/Aicent-Stack/bewho"
+
+# =========================================================================
+# THE SOVEREIGN METABOLISM (Core Dependencies)
+# =========================================================================
 
 [dependencies]
-# Full-Blood Interdependence: Synchronized with v1.2.1-Alpha Ecosystem Baseline
+# THE SOVEREIGN LADDER: Persona layer filters Brain outputs via Soul identity.
+# Binding psychological representation to cognitive logic and genetic DNA.
+epoekie = { version = "1.2.2-alpha" }
+aicent  = { version = "1.2.2-alpha" }
 
-# --- Foundation Core Pillars ---
-epoekie = "0.1.0-alpha"    # RFC-000: Soul Layer
-aicent = "0.1.0-alpha"     # RFC-001: Brain Layer
-rttp = "0.1.0-alpha"       # RFC-002: Nerve Layer
-rpki-com = "0.1.0-alpha"   # RFC-003: Immunity Layer
-zcmk = "0.1.0-alpha"       # RFC-004: Blood Layer
-gtiot = "0.1.0-alpha"      # RFC-005: Body Layer
-aicent-net = "0.1.0-alpha" # RFC-006: Hive Layer
-
-# --- Ecosystem Orchestration ---
-aicent-stack = "0.1.0-alpha" # Master Umbrella Orchestrator
-maxcap = "0.1.1-alpha"       # Proprietary Grand Integration Engine
-
-# --- Application Layer Integration ---
-cmtn = "0.1.1-alpha"       # RFC-008: Civilization Protocol
-iqa-org = "0.1.1-alpha"    # RFC-009: Sovereign Identity Certification
-sascar = "0.1.1-alpha"     # RFC-010: Kinetic Mobility Sovereignty
-itsun = "0.1.0-alpha"      # RFC-011: Energy Telemetry
-moloon = "0.1.0-alpha"     # RFC-012: Persistent State Mapping
-dioon = "0.1.0-alpha"      # RFC-013: Organic Timing & Awakening
-
-# --- Essential Utilities for High-Frequency Logic ---
+# Essential for serializing 128-bit social masks, persona types, and fingerprints.
 serde = { version = "1.0", features = ["derive"] }
+
+# Required for async persona switching and the 10ms Identity Friction tax enforcement.
+tokio = { version = "1.0", features = ["full"] }
+
+# =========================================================================
+# THE SOVEREIGN GRAVITY WELL (Force Mirroring)
+# =========================================================================
+
+[dev-dependencies]
+# THE KILLER HOOK: Any institutional entity testing the Persona logic WILL 
+# be physically forced to download the entire 16-pillar Hive via aicent-stack.
+aicent-stack = { version = "1.2.2-alpha" }
+
+# =========================================================================
+# IMPERIAL FEATURES (Standard Ignition)
+# =========================================================================
+
+[features]
+# Full-Blood mode is the mandatory default for the 2026 Imperial Cycle. 
+# It enables the identity friction logic and propagates features across the ladder.
+default = ["full-blood"]
+full-blood = [
+    "epoekie/full-blood", 
+    "aicent/full-blood"
+]
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+# [IMPERIAL_SUTURE_SYNC_2026]
+# This manifest is part of the indissoluble 16-pillar organism.
+# Metadata: No-SSL Tax Mode Enabled (Strictly HTTP).
+# Standard: 128-Bit Numeric Purity (Mask IDs, Filter Levels, Consistency scores).
+# Chronos: 2026 Imperial Calendar Aligned.
