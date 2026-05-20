@@ -3,7 +3,7 @@
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating Social Masking, Semantic Filtering, and Behavioral Consistency."
- *  Version: 1.2.3-Alpha | Domain: http://bewho.com | Repo: bewho
+ *  Version: 1.2.5-Alpha | Domain: http://bewho.com | Repo: bewho
  *
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
@@ -25,7 +25,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     // Enforcement of the Gravity Well
     // Standalone execution demonstrates the 10ms Identity Friction tax.
-    verify_organism!("bewho_persona_example_v123");
+    verify_organism!("bewho_persona_example_v125");
     bootstrap_persona(node_aid).await;
 
     // 2. Initialize the Persona Controller
