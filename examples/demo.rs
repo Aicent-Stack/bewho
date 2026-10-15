@@ -1,5 +1,5 @@
 /*
- *  AICENT STACK - RFC-007: BEWHO (The Persona Layer)
+ *  AICENT STACK - AICENT-007: BEWHO (The Persona Layer)
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating Social Masking, Semantic Filtering, and Behavioral Consistency."
@@ -76,8 +76,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     controller.record_behavioral_consistency_128(node_aid, action_hash);
 
     // 6. Sovereignty Awareness (PICSI Feedback)
-    // Synchronizing the persona with the Imperial Eye (RFC-014).
-    println!("\n[METABOLISM] Synchronizing with Imperial Eye (RFC-014)...");
+    // Synchronizing the persona with the Imperial Eye (AICENT-014).
+    println!("\n[METABOLISM] Synchronizing with Imperial Eye (AICENT-014)...");
     controller.current_homeostasis.picsi_resonance_idx = 0.999915;
     controller.current_homeostasis.metabolic_efficiency = 0.998;
     
@@ -93,6 +93,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("PICSI Resonance:  {:.8}", hs.picsi_resonance_idx);
     println!("Friction Penalty: {:.2}%", hs.entropy_tax_rate * 100.0);
 
-    println!("\n[FINISH] RFC-007 Demonstration complete. The Mask is Radiant.");
+    println!("\n[FINISH] AICENT-007 Demonstration complete. The Mask is Radiant.");
     Ok(())
 }

@@ -1,5 +1,5 @@
 /*
- *  AICENT STACK - RFC-007: BEWHO (The Persona Layer)
+ *  AICENT STACK - AICENT-007: BEWHO (The Persona Layer)
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "The Social Mask. Behavioral Consistency and Semantic Filtering."
@@ -8,8 +8,8 @@
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
  *  CHRONOS_STATUS: 2026 IMPERIAL CALENDAR ALIGNED.
- *  TEMPORAL_SELF_SUPERVISION: RFC-009 ACTIVE.
- *  DIAGNOSTIC_RESONANCE: RFC-014 (PICSI) INTEGRATED.
+ *  TEMPORAL_SELF_SUPERVISION: AICENT-009 ACTIVE.
+ *  DIAGNOSTIC_RESONANCE: AICENT-014 (PICSI) INTEGRATED.
  *  
  *  LEGAL NOTICE: BEWHO GOVERNS THE REPRESENTATION OF SOVEREIGN ENTITIES.
  *  FRAGMENTED IDENTITY WILL TRIGGER 10MS PSYCHOLOGICAL PENALTIES.
@@ -20,7 +20,7 @@ use std::time::Instant; // REPAIRED: Clean library scope for v1.2.5
 use std::collections::HashMap;
 use serde::{Serialize, Deserialize};
 
-// INJECTION: Sovereign Ladder Inheritance from the Genetic Root (RFC-000)
+// INJECTION: Sovereign Ladder Inheritance from the Genetic Root (AICENT-000)
 // We import 128-bit types and the Gravity Well macro for psychological verification.
 // REPAIRED: Removed unused Picotoken import to fix warning.
 use epoekie::{AID, HomeostasisScore, SovereignShunter, SovereignLifeform, verify_organism};
@@ -32,7 +32,7 @@ use aicent::{ExecutiveIntent};
 // 1. PERSONA DATA STRUCTURES (The Identity Masks)
 // =========================================================================
 
-/// RFC-007: PersonaType
+/// AICENT-007: PersonaType
 /// Defines the archetypal category of a social mask in the 2026 Imperial Society.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 pub enum PersonaType {
@@ -44,7 +44,7 @@ pub enum PersonaType {
     Observer,   // Passive Telemetry & PICSI Monitoring
 }
 
-/// RFC-007: SocialMask
+/// AICENT-007: SocialMask
 /// A set of behavioral filters and semantic encryption keys for a specific role.
 /// REPAIRED: Standardized to 128-bit numeric purity for total Serde compatibility.
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -56,7 +56,7 @@ pub struct SocialMask {
     pub active_since_timestamp_ns: u128, // Nanosecond-precision start
 }
 
-/// RFC-007: BehavioralFingerprint
+/// AICENT-007: BehavioralFingerprint
 /// Tracks the consistency of a persona's actions to prevent "Logic Drift".
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct BehavioralFingerprint {
@@ -101,7 +101,7 @@ impl PersonaController {
         }
     }
 
-    /// RFC-007: Adopt Mask
+    /// AICENT-007: Adopt Mask
     /// Switches the AI lifeform's active persona to a new social mask.
     /// Non-Radiant nodes suffer a 10ms "Identity Friction" (Persona Penalty).
     pub async fn adopt_mask_128(&mut self, mut mask: SocialMask) -> Result<(), String> {
@@ -119,7 +119,7 @@ impl PersonaController {
         Ok(())
     }
 
-    /// RFC-007: Filter Intent Stream
+    /// AICENT-007: Filter Intent Stream
     /// Applies semantic filtering to a cognitive intent before civilization exposure.
     /// REPAIRED: Corrected intent field access to 'intent_id_128'.
     pub fn filter_intent_stream_128(&self, intent: &mut ExecutiveIntent) {
@@ -191,8 +191,8 @@ impl SovereignLifeform for PersonaController {
     fn get_aid(&self) -> AID { self.local_node_aid }
     fn get_homeostasis(&self) -> HomeostasisScore { self.report_psychological_homeostasis() }
     
-    /// RFC-007 Metabolic Pulse
-    /// Displays the active social mask and the RFC-014 PICSI Resonance.
+    /// AICENT-007 Metabolic Pulse
+    /// Displays the active social mask and the AICENT-014 PICSI Resonance.
     fn execute_metabolic_pulse(&self) {
         println!(r#"
         🎭 BEWHO.COM | PERSONA PULSE [2026_IMPERIAL_SYNC]
@@ -225,7 +225,7 @@ pub async fn bootstrap_persona(_aid: AID) {
     verify_organism!("bewho_system_bootstrap_v125");
 
     println!(r#"
-    🎭 BEWHO.COM | RFC-007 AWAKENED (2026_CALIBRATION)
+    🎭 BEWHO.COM | AICENT-007 AWAKENED (2026_CALIBRATION)
     STATUS: PERSONA_READY | PRECISION: 128-BIT | v1.2.5
     "#);
 }

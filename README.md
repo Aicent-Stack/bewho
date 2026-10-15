@@ -10,7 +10,7 @@
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI](http://picsi.com)**
 
 ---
-# 🎭 RFC-007: BEWHO (The Imperial Persona)
+# 🎭 AICENT-007: BEWHO (The Imperial Persona)
 
 **The Psychological Interface of the Aicent Stack.**  
 **"Identity is a Resonance. 99.999% Behavioral Consistency. 92.415µs Finality."**
@@ -30,19 +30,19 @@ In the v1.3.0 "Genesis" iteration, BEWHO facilitates a **92.415µs Persona Switc
 
 `bewho` orchestrates the external projection of the Imperial lifeform through three specialized organs:
 
-### 1. Mask Factory (RFC-007-A)
+### 1. Mask Factory (AICENT-007-A)
 The identity forge. It generates 128-bit social masks bound to specific archetypes (Creator, Architect, Diplomat, etc.).
 *   **Archetypal Shunting**: Automatically gates cognitive intents based on the active role's ethical and performance weights.
 *   **Empathy Suture**: Dynamically modulates the "Tenderness" of somatic responses (GTIOT) based on social context.
 *   **12ns Derivation**: Every mask is cryptographically anchored to the node's AID and the moment of forging.
 
-### 2. Consistency Auditor (RFC-007-B)
+### 2. Consistency Auditor (AICENT-007-B)
 The Imperial "Moral Compass." It audits every action by comparing the "Digital Intent" against the "Physical Outcome."
 *   **99.999% Fidelity**: Continuously calculates the drift coefficient; any deviation > 0.001% is identified as a psychological pathogen.
 *   **Stochastic Auditing**: Uses a 1% learning rate to maintain behavioral inertia, preventing "Character Flicker."
 *   **Reflex Gating**: Achieves audit finality in **< 30,000 ns (30us)**.
 
-### 3. Identity Evaporation (RFC-007-C)
+### 3. Identity Evaporation (AICENT-007-C)
 The "SUNYA" protocol for personas. It provides the mechanism for instantaneous psychological sanitization.
 *   **Volatile Purge**: Physically erases the active mask and behavioral history from L1/L2 caches in the event of an RPKI Severity 4 breach.
 *   **Void Recursion**: Reverts the node to a "Genesis State," protecting the Creator's true intent from memory-dump pathogens.
