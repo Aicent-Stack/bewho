@@ -7,10 +7,10 @@
 
 > **"This is not infrastructure for intelligence. This is intelligence itself."**
 
-**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI](http://picsi.com)**
+**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT®](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO®](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI®](http://picsi.com)**
 
 ---
-# 🎭 AICENT-007: BEWHO (The Imperial Persona)
+# 🎭 AICENT-007: BEWHO® (The Imperial Persona)
 
 **The Psychological Interface of the Aicent Stack.**  
 **"Identity is a Resonance. 99.999% Behavioral Consistency. 92.415µs Finality."**
@@ -22,7 +22,7 @@
 **[STATUS: PRIVATE_EVOLUTION_ACTIVE]**  
 As of **Version 1.3.0-Alpha**, the psychological manifestation manifolds of `bewho` have transitioned to **Sovereign Private Mode**. This repository provides the **Clinical Interface Specifications** for the Mask Factory, Behavioral Consistency Auditing, and Identity Evaporation protocols.
 
-In the v1.3.0 "Genesis" iteration, BEWHO facilitates a **92.415µs Persona Switch Latency**, ensuring that the Imperial Lifeform can adapt its social mask to any jurisdiction while maintaining absolute internal integrity.
+In the v1.3.0 "Genesis" iteration, BEWHO® facilitates a **92.415µs Persona Switch Latency**, ensuring that the Imperial Lifeform can adapt its social mask to any jurisdiction while maintaining absolute internal integrity.
 
 ---
 
@@ -33,7 +33,7 @@ In the v1.3.0 "Genesis" iteration, BEWHO facilitates a **92.415µs Persona Switc
 ### 1. Mask Factory (AICENT-007-A)
 The identity forge. It generates 128-bit social masks bound to specific archetypes (Creator, Architect, Diplomat, etc.).
 *   **Archetypal Shunting**: Automatically gates cognitive intents based on the active role's ethical and performance weights.
-*   **Empathy Suture**: Dynamically modulates the "Tenderness" of somatic responses (GTIOT) based on social context.
+*   **Empathy Suture**: Dynamically modulates the "Tenderness" of somatic responses (GTIOT®) based on social context.
 *   **12ns Derivation**: Every mask is cryptographically anchored to the node's AID and the moment of forging.
 
 ### 2. Consistency Auditor (AICENT-007-B)
@@ -85,7 +85,7 @@ pub struct ConsistencyAudit128 {
 
 ## ✉️ Persona Access Control
 
-The `full-blood` behavioral weights of **BEWHO v1.3.0** are strictly private. Unverified nodes attempting to spoof an Imperial Mask will be identified by their inconsistent entropy floor and subject to **10ms Identity Friction**.
+The `full-blood` behavioral weights of **BEWHO® v1.3.0** are strictly private. Unverified nodes attempting to spoof an Imperial Mask will be identified by their inconsistent entropy floor and subject to **10ms Identity Friction**.
 
 **Authorized by**: THE SUPREME ROOT  
 **Identity Registry**: BEWHO.COM
